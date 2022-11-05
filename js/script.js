@@ -18,16 +18,52 @@ window.onscroll = () => {
 
 // ===> Maquina de escrever <====
 
-const mainSubtitle = document.querySelector(".main-subtitle");
+function typeMachine() {
+	const mainSubtitle = document.querySelector(".main-subtitle");
 
-function machine(tag) {
-	const textoArray = tag.innerHTML.split("");
-	tag.innerHTML = "";
-	textoArray.forEach((element, index) => {
-		setTimeout(() => {
-			tag.innerHTML += element;
-		}, 75 * index)
+	function machine(tag) {
+		const textoArray = tag.innerHTML.split("");
+		tag.innerHTML = "";
+		textoArray.forEach((element, index) => {
+			setTimeout(() => {
+				tag.innerHTML += element;
+			}, 75 * index)
+		})
+	}
+
+	machine(mainSubtitle);
+}
+
+typeMachine();
+
+//======> Scroll Suave <======
+
+
+function initScrollSuave() {
+	const linksInternos = document.querySelectorAll('#js-menu a[href^="#"]');
+
+	function scrollToSection(event) {
+		event.preventDefault();
+		const href = event.currentTarget.getAttribute('href'); //Pega o atributo
+		const section = document.querySelector(href); // Pega a section, que tem o Href selecionado, aqui fazemos o linke do menu com as seções
+
+		section.scrollIntoView({ 
+			behavior: "smooth", 
+			block: "start"
+		});
+
+		// const topo = section.offsetTop; //offsetTop => pega o topo das seções
+		// //window.scrollTo(0, topo); //Posso passar isso de outra forma 
+		// window.scrollTo({
+		// 	top: topo,
+		// 	behavior:"smooth",
+		// });
+	}
+
+	linksInternos.forEach((link) => {
+		link.addEventListener('click', scrollToSection);
 	})
 }
 
-machine(mainSubtitle);
+initScrollSuave();
+
