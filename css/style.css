@@ -277,9 +277,6 @@ header.sticky{
  		border-bottom: 1px solid transparent;
 	} 
 
-	50% {
-		border-bottom: 3px solid var(--main-color);
-	}
 
 	100% {
 		transform: translateX(5px);
