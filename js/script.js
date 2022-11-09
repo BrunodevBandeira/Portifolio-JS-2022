@@ -34,7 +34,7 @@ function typeMachine() {
 	machine(mainSubtitle);
 }
 
-// typeMachine();
+typeMachine();
 
 
 
@@ -66,7 +66,7 @@ function initScrollSuave() {
 	})
 }
 
-// initScrollSuave();
+initScrollSuave();
  
 
 
