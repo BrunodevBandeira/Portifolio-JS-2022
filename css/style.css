@@ -503,11 +503,17 @@ header.sticky{
 	font-size: 14px;
 }
 .top i{
-	padding: 10px;
+	padding: 1rem;
 	border-radius: 8px;
-	font-size: 15px;
+	font-size: 1.5rem;
 	color: var(--text-color);
 	background: var(--main-color);
+	transition: all .45s ease;
+}
+
+.top i:hover{
+	background: var(--text-color);
+	color: var(--main-color);
 }
 
 .js .js-tabcontent section {
@@ -578,7 +584,7 @@ header.sticky{
 	}
 	header.sticky{
 		padding: 10px 2.5%;
-		transition: .1s;;
+		transition: .1s;
 	}
 	section{
 		padding: 110px 3% 60px;
