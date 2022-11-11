@@ -441,21 +441,33 @@ header.sticky{
 /* ========> XP <========*/
 .expe-container {
 	display: flex;
+	justify-content: center;
 	border-bottom: 3.9px solid purple;
-
-}
+ }
 
 .expe-top {
 	width: 100%;
 	text-align: center;
+	flex-wrap: wrap;
 }
 
 .expe-botton {
 	width: 100%;
 	text-align: center;
+	flex-wrap: wrap;
 }
 
 .xp-text {
+}
+
+.xp-text-activities {
+	color: var(--main-color);
+	font-size: 1.2rem;
+	transition: .5s;
+}
+
+.xp-text-activities:hover {
+	color: #18b48a
 }
 
 .xp-title {
@@ -668,6 +680,12 @@ header.sticky{
 	.home{
 		height: 87vh;
 	}
+
+	.expe-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 @media (max-width: 920px){
@@ -685,6 +703,12 @@ header.sticky{
 	}
 	.contact{
 		grid-template-columns: 1fr;
+	}
+
+	.expe-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 }
 
@@ -718,5 +742,11 @@ header.sticky{
 	}
 	.navlist.open{
 		top: 100%;
+	}
+
+	.expe-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 }
