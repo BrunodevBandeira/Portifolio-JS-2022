@@ -359,7 +359,6 @@ header.sticky{
 .portfolio {
 	border-bottom: 3.9px solid purple;
     padding: 10px 20px;
-
 }
 
 .portfolio-content {
@@ -433,6 +432,42 @@ header.sticky{
 .row:hover .layer{
 	height: 100%;
 }
+
+
+
+
+
+/* ========> XP <========*/
+.expe-container {
+	display: flex;
+	border-bottom: 3.9px solid purple;
+}
+
+.expe-top {
+	width: 100%;
+	text-align: center;
+}
+
+.expe-botton {
+	width: 100%;
+	text-align: center;
+}
+
+.xp-text {
+}
+
+.xp-title {
+	text-align: center;
+}
+.xp-img img{
+	width: 25rem;
+	height: 15rem;
+}
+
+
+
+
+/* =====> Contact <=====*/
 
 .contact{
 	background: var(--second-bg-color);
