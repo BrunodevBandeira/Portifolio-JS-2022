@@ -476,6 +476,21 @@ header.sticky{
 .xp-img img{
 	width: 25rem;
 	height: 15rem;
+	padding-top: 1.5rem;
+	animation: float 6.8s ease-in-out infinite;
+}
+
+.xp-img img:hover {
+}
+
+@keyframes float {
+	0%, 100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-18px);
+	}
 }
 
 
