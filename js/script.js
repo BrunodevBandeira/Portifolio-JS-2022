@@ -95,4 +95,12 @@ if(tabMenu.length && tabContent.length) {
 }
 
 
+// =======> Troca imagem <=========
+// const imgJS = document.querySelector("#imagem-js");
+// imgJS.addEventListener("mousemove", () => {
+// 	console.log("Mouse...");
+//  	imgJS.src = "../img/marco1.jpg";
+// });
+
+
 
