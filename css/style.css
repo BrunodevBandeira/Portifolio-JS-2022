@@ -272,12 +272,13 @@ header.sticky{
 }
 
 .about-text-span {
-	color: var(--text-color);
+	color: var(--main-color);
 	transition: 0.4s;
 }
 
 .about-text-span:hover {
-	color: var(--main-color);
+	color: #fff;
+	background: var(--main-color);
 }
 
 

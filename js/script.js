@@ -95,12 +95,13 @@ if(tabMenu.length && tabContent.length) {
 }
 
 
-// =======> Troca imagem <=========
-// const imgJS = document.querySelector("#imagem-js");
-// imgJS.addEventListener("mousemove", () => {
-// 	console.log("Mouse...");
-//  	imgJS.src = "../img/marco1.jpg";
-// });
+// =======> title <=========
 
+
+const date = new Date();
+console.log(date.getMinutes());
+ 
+date.getMinutes() % 2 === 0 ? document.title = "Bruno Bandeira 2022" : document.title = "Seja Bem vindo...";
+ 
 
 
