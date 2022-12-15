@@ -294,6 +294,19 @@ header.sticky{
 	line-height: 1.7;
 	margin: 15px 0 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about-text p{
 	color: var(--second-color);
 	font-size: var(--p-font);
@@ -743,11 +756,49 @@ header.sticky{
 .modal {
 	background: var(--second-bg-color);
 	min-width: 300px;
-	padding: 40px;
+	padding: 20px;
 	border: 10px solid var(--main-color);
 	box-shadow: 0 0 0 10px  #6923a6;
 	position: relative;
-  }
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.modal-button{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-button a{
+	align-items: center;
+	padding-left: .2rem;
+}
+
+.modal-btn{
+	display: inline-block; 
+	background: var(--main-color);
+	border-radius: 5px;
+	color: var(--text-color);
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+	transition: all .45s ease;
+	width: 8rem;
+	margin: 1rem 1rem auto auto;
+}
+
+.modal-btn:hover{
+	width: 11rem;
+	background: var(--text-color);
+	color:var(--main-color);
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
   
   @keyframes modal {
 	from {
@@ -780,6 +831,67 @@ header.sticky{
 	cursor: pointer;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====> Animação Letra <===== */
+
+ 
+
+/* [data-anime-letra] h4{
+
+	background: url(../img/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg);
+	background-repeat: repeat-x;
+	background-clip: text;
+	animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        background-position: left 0px top 80px;
+    }
+
+    40% {
+        background-position: left 800px top -50px;
+    }
+    80% {
+        background-position: left 1800px top -50px;
+    }
+
+    0% {
+        background-position: left 2400px top 80px;
+    }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
