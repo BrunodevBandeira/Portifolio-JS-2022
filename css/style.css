@@ -430,6 +430,7 @@ header.sticky{
 	border-radius: 8px;
 	cursor: pointer;
 	max-width: 21rem;
+	padding: .5rem;
 }
 
 .row img {
@@ -834,6 +835,24 @@ header.sticky{
 
 
 
+
+
+
+
+/* =====> Tooltipbox <===== */
+.tooltip {
+	position: absolute;
+	z-index: 500;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 0 2px #18b48a, 0 0 0 6px rgb(0, 0, 0, 0.6);
+	padding: .5rem;
+	color: white;
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: bold;
+	font-size: .875rem;
+	max-width: 150px;
+	border-radius: 2px;
+}
 
 
 
