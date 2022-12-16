@@ -11,6 +11,12 @@ export default function typeMachine() {
 		})
 	}
 
+	
 	machine(mainSubtitle);
+	
+	const top = document.querySelector(".top");
+	top.addEventListener("click",  () => {
+		machine(mainSubtitle);
+	});
 }
 
