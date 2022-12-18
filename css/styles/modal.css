@@ -1,0 +1,102 @@
+/* =====> Modal <===== */
+
+.modal-container {
+	height: 100vh;
+	width: 100%;
+	background: transparent;
+	backdrop-filter: blur(2px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container.ativo {
+	display: flex;
+}
+
+/* .modal-container {
+	display: flex;
+} */
+
+.modal {
+	background: var(--second-bg-color);
+	min-width: 300px;
+	padding: 20px;
+	border: 10px solid var(--main-color);
+	box-shadow: 0 0 0 10px  #6923a6;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.modal-button{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-button a{
+	align-items: center;
+	padding-left: .2rem;
+}
+
+.modal-btn{
+	display: inline-block; 
+	background: var(--main-color);
+	border-radius: 5px;
+	color: var(--text-color);
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+	transition: all .45s ease;
+	width: 8rem;
+	margin: 1rem 1rem auto auto;
+}
+
+.modal-btn:hover{
+	width: 11rem;
+	background: var(--text-color);
+	color:var(--main-color);
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+  
+  @keyframes modal {
+	from {
+	  opacity: 0;
+	  transform: translate3d(0, -30px, 0);
+	}
+	to {
+	  opacity: 1;
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  .ativo .modal {
+	animation: modal .3s forwards;
+  }
+  
+  .fechar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 4px solid white;
+	top: -30px;
+	right: -30px;
+	position: absolute;
+	background: var(--main-color);
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+	font-size: 1.2rem;
+	color: white;
+	font-family: 'IBM Plex Mono', monospace;
+	cursor: pointer;
+  }
+  /* =====> FIM  Modal <===== */

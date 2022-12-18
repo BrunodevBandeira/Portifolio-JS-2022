@@ -1,0 +1,12 @@
+ /* =====> Scrool Bar <===== */
+ ::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background: var(--main-color);
+	border-radius: 0.5rem;
+ }
+
+ 
