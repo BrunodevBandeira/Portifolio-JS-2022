@@ -16,6 +16,4 @@ export default function initMenu() {
 		menu.classList.remove('bx-x');
 		navlist.classList.remove('open');
 	};
-
-
-}
+};
