@@ -20,16 +20,22 @@
 	--p-font: 1.1rem;
 	
 }
+
+
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
 
 
+/* ===>  Home <=== */
+
 
 section{
 	padding: 160px 15% 120px;
 }
+
+
 .home{
 	position: relative;
 	height: 100vh;
@@ -135,6 +141,21 @@ section{
 .btn:hover{
 	transform: scale(0.9);
 }
+
+
+/* ===> Fim Home <=== */
+
+
+
+
+
+
+
+
+
+
+/* ===> SOBRE <=== */
+
 
 .perfil {
 	display: inline-flex;
@@ -242,18 +263,6 @@ header.sticky{
 	margin: 15px 0 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .about-text p{
 	color: var(--second-color);
 	font-size: var(--p-font);
@@ -261,9 +270,53 @@ header.sticky{
 	margin-bottom: 4rem;
 }
 
-.services{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===> FIM SOBRE <=== */
+/* .services{
 	background: var(--second-bg-color);
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===> Portifolio <=== */
+
+
 .main-text{
 	text-align: center;
 	padding-top: 1rem;
@@ -315,6 +368,16 @@ header.sticky{
 	gap: 2.5rem;
 	margin-top: 5rem;
 }
+
+
+
+
+
+/* ========> Portifolio <========*/
+
+
+
+/* 
 .box{
 	background: var(--bg-color);
 	padding: 35px 45px;
@@ -330,8 +393,11 @@ header.sticky{
 	font-weight: 600;
 	color: var(--text-color);
 	margin-bottom: 15px;
-}
-.box p{
+} */
+
+
+
+/* .box p{
 	color: var(--second-color);
 	font-size: 1rem;
 	line-height: 1.8;
@@ -346,8 +412,8 @@ header.sticky{
 	font-weight: 500;
 	border-radius: 8px;
 	transition: all .45s ease;
-}
-.read:hover{
+} */
+/* .read:hover{
 	letter-spacing: 1px;
 	background: #ffffff99;
 	color: var(--text-color);
@@ -355,7 +421,7 @@ header.sticky{
 .box:hover{
 	transform: translateY(-8px);
 	cursor: pointer;
-}
+} */
 .portfolio {
 	border-bottom: 3.9px solid purple;
     padding: 10px 20px;
@@ -434,6 +500,34 @@ header.sticky{
 	height: 100%;
 }
 
+/* ========> Fim Portifolio <========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -507,6 +601,32 @@ header.sticky{
 		transform: translateY(-18px);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -592,6 +712,24 @@ header.sticky{
 }  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===> Footer <=== */
+
 .end{
 	padding: 20px 15%;
 	display: flex;
@@ -618,6 +756,24 @@ header.sticky{
 	background: var(--text-color);
 	color: var(--main-color);
 }
+
+
+/* ===> FIM Footer <=== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .js .js-tabcontent section {
 	display: none;
