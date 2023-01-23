@@ -534,8 +534,11 @@ header.sticky{
 
 /* ========> XP <========*/
 .expe-container {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	border-bottom: 3.9px solid purple;
  }
 
@@ -543,16 +546,31 @@ header.sticky{
 	width: 100%;
 	text-align: center;
 	flex-wrap: wrap;
+	cursor: pointer;
 }
 
 .expe-botton {
 	width: 100%;
 	text-align: center;
 	flex-wrap: wrap;
+	cursor: pointer;
 }
 
 .xp-text {
 }
+
+.xp-text-line {
+	border-bottom: 3.9px solid var(--main-color);
+	margin: 1rem;
+}
+
+.xp-text-container {
+	padding-top: .5rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .xp-text-activities {
 	color: var(--main-color);

@@ -125,6 +125,18 @@
 		<div class="portfolio-content js-tabcontent">
 
 			<section>
+
+				<div class="row" id="React">
+					<img src="img/space.jpg">
+					<div class="layer">
+						<h5> React Portifólio </h5>
+						<p> Refatorando portifólio feito em React (Reconstrução) </p>
+						<a href="https://portifolio-react-zeta.vercel.app/" target="_blank">
+							<i class='bx bx-link-external' ></i>
+						</a>
+					</div>
+				</div>
+
 				<div class="row" id="React">
 					<img src="img/mountain.jpg">
 					<div class="layer">
@@ -160,6 +172,24 @@
 						<h5> Clone Netflix </h5>
 						<p> Clone netflix feito com React </p>
 						<a href="https://netflix-clone-react-beta.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+					</div>
+				</div>
+
+				<div class="row" id="React">
+					<img src="img/Netflix2.jpg">
+					<div class="layer">
+						<h5> Clone Netflix </h5>
+						<p> Clone Netflix em Desenvolvimento com MySQL e Node </p>
+						<a href="#" target="_blank"><i class='bx bx-link-external' ></i></a>
+					</div>
+				</div>
+
+				<div class="row" id="React">
+					<img src="img/natacao.webp">
+					<div class="layer">
+						<h5> Landing Page React </h5>
+						<p> Landing page feito com react </p>
+						<a href="https://unycos.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
 					</div>
 				</div>
 
@@ -257,6 +287,17 @@
 					</div>
 				</div>
 
+				<div class="row" id="javascript">
+					<img src="img/rocketseat.jpg">
+					<div class="layer">
+						<h5> Controle de Habitos  </h5>
+						<p> Projeto desenvolvido na NLW da Rocketseat com Javascript </p>
+						<a href="https://brunodevbandeira.github.io/NLW-Habits/" target="_blank">
+							<i class='bx bx-link-external' ></i>
+						</a>
+					</div>
+				</div>
+
 			</section>
 
 			<section>
@@ -283,55 +324,88 @@
 						</a>
 					</div>
 				</div>
+
+				<div class="row" id="node">
+					<img src="img/pokemon.jpg">
+					<div class="layer">
+						<h5> Pokemon Node </h5>
+						<p> Projeto desenvolvido com Node.. </p>
+						<a href="https://github.com/BrunodevBandeira/Node-Pokemon" target="_blank">
+							<i class='bx bx-link-external' ></i>
+						</a>
+					</div>
+				</div>
 			</section>
 
 		</div>
 	</section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<!-- ======> XP <====== -->
-	<section class="expe-container" id="expe">
-		
+	<section class="expe-container" id="expe" data-modal="expe-abrir">
 		<section class="expe-top">
 			<div class="xp-text">
-			<h2> Bom <span> Valor! </span></h2>
-			<h4> Desenvolvedor Frontend </h4>
-			<p>
-				Trabalhava com <span> VueJS </span>  
-			</p>
-				<ul>
-					<p class="xp-text-activities"> Atividades principais...</p>
-					<li> Desenvolvimento FrontEnd - Vue com Bootstrap </li>
-					<li> Diagramação de layout com HTML5 / CSS / JS </li>
-					<li> Trabalhar com metodologia ágil </li>
-					<li> GIT </li>
-				</ul>
-		</div> 
-		<div class="xp-img-top">
-			<img src="./img/bom.svg" alt="">
-		</div>
+				<h2> Bom <span> Valor! </span></h2>
+			</div> 
+
+			<div class="xp-img-top">
+				<img src="./img/bom.svg" alt="">
+			</div>
+
 		</section>
 		
 		<section class="expe-botton">
 			<div class="xp-text">
 				<h2> Mobocity <span>| Influ! </span></h2>
-				<h4> Desenvolvedor Frontend </h4>
-				<p>
-					Trabalhava com <span> VueJS, React e NodeJS </span>  
-				</p>
-				<ul>
-					<p class="xp-text-activities"> Atividades principais...</p>
-					<li> Desenvolvimento e suporte das aplicações para atender as necessidades dos produtos </li>
-					<li> Construção de códigos com qualidade seguindo as melhores práticas </li>
-					<li> Implantação de novas tecnologias aderentes ao produto  </li>
-					<li> Manutenção de micro </li>
-				</ul>
 			</div> 
 			<div class="xp-img">
 				<img src="./img/mobo.svg" alt="">
 			</div>
 		</section>
 	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!--  ===> contact <=== -->
 	<section class="contact" id="contact">
@@ -416,6 +490,74 @@
 		</div>
 	</section>
 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	<!--  ===> Expe Modal section <=== -->
+
+	<section class="modal-container" data-modal="expe-container">
+		<div class="modal">
+			<button data-modal="expe-fechar" class="fechar"> X </button>
+
+			<div class="xp-text">
+				<h2> Bom <span> Valor! </span></h2>
+				<h4> Desenvolvedor Frontend </h4>
+				<p>
+					Trabalhava com <span> VueJS e Bootstrap</span>  
+				</p>
+				<ul>
+					<p class="xp-text-activities"> Responsabilidades ... </p>
+					<li> Desenvolvimento FrontEnd - Vue com Bootstrap </li>
+					<li> Diagramação de layout com HTML5 / CSS / JS </li>
+					<li> Trabalhar com metodologia ágil </li>
+					<li> GIT </li>
+				</ul>
+
+
+					<div class="xp-text-line"></div>
+
+				<h2> Mobocity <span>| Influ! </span></h2>
+				<h4> Desenvolvedor Frontend </h4>
+				<p>
+					Trabalhava com <span> VueJS, React e NodeJS </span>  
+				</p>
+				<ul>
+					<p class="xp-text-activities"> Responsabilidades... </p>
+					<li> Desenvolvimento e suporte das aplicações para atender as necessidades dos produtos </li>
+					<li> Construção de códigos com qualidade seguindo as melhores práticas </li>
+					<li> Implantação de novas tecnologias aderentes ao produto  </li>
+					<li> Manutenção de micro e RPA</li>
+				</ul>
+
+				<div class="xp-text-container">
+
+					<div class="button">
+						<a href="./cv/FRONT END-JR - BRUNO BANDEIRA.pdf" class="btn" download=""> Download CV </a>
+					</div>
+		
+					<div class="perfil">
+						<a href="https://www.16personalities.com/br/personalidade-entj" target="_blank" class="per"> Perfil Comportamental </a>
+					</div>
+				</div>
+
+			</div> 
+		</div>
+	</section>
 
 	<script type="module" src="js/script.js"></script>
 
