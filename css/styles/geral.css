@@ -474,7 +474,7 @@ header.sticky{
 .layer h5{
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 .layer p{
 	color: var(--second-color);
@@ -588,7 +588,7 @@ header.sticky{
 
 .xp-img-top img{
 	width: 25rem;
-	height: 15rem;
+	height: 5rem;
 	margin-top: 2.4rem;
 	animation: float 6.8s ease-in-out infinite;
 	transition: all 2s;
