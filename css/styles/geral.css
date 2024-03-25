@@ -437,6 +437,21 @@ header.sticky{
 	height: 100%;	
 }
 
+.box-xp {
+	border-bottom: 3.9px solid purple;
+    padding: 10px 20px;
+}
+
+.box-xp-content {
+	/* display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	align-items: center;
+	gap: 2.5rem;
+	margin-top: 5rem; */
+	width: 100%;
+	height: 100%;	
+}
+
 .row {
 	position: relative;
 	overflow: hidden;
@@ -798,6 +813,21 @@ header.sticky{
 }
 
 .js-tabcontent section.ativo {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	transform: translate3d(-30px, 0, 0);
+	animation: show .5s forwards;
+	/* background: yellow; */
+}
+
+.js .xp-tabcontent section {
+	display: none;
+}
+
+.xp-tabcontent section.ativo {
 	display: flex !important;
 	justify-content: center;
 	align-items: center;
